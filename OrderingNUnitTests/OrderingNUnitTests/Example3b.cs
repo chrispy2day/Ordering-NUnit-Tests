@@ -35,7 +35,7 @@ namespace OrderingNUnitTests.Example3
             Console.WriteLine("This is my other test one");
             //MyInt.I++; Assert.That(MyInt.I, Is.EqualTo(2));
             MyInt++;
-            Assert.That(MyInt, Is.EqualTo(2));
+            Assert.That(MyInt, Is.EqualTo(1));
         }
 
         [TestCaseSource(sourceName: "TestSource")]
